@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Restaurantify Menu</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">restaurantify</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Orders</a>
+      <a href="#">Menu Management</a>
+      <a href="#">Reports</a>
+      <a href="#">Reservations</a>
+    </nav>
+  </header>
+
+  <main>
+    <aside class="categories">
+      <h2>Menu Categories</h2>
+      <ul>
+        <li>Breakfast Dishes</li>
+        <li>Vegan</li>
+        <li>Vegetarian</li>
+        <li>Appetizers</li>
+        <li class="active">Pasta</li>
+        <li>Pizza</li>
+      </ul>
+    </aside>
+
+    <section class="menu">
+      <h2>Pasta Dishes</h2>
+      <div class="search-sort">
+        <input type="text" placeholder="Search..." />
+        <select>
+          <option>All Menus</option>
+        </select>
+        <button>Sort</button>
+      </div>
+
+      <div class="menu-items">
+        <div class="menu-item">Cheese Ravioli - $15.00</div>
+        <div class="menu-item">Lasagna - $18.00</div>
+        <div class="menu-item">Pesto Spaghetti - $14.00</div>
+        <div class="menu-item">Margherita Pizza - $15.00</div>
+        <div class="menu-item">Tiramisu - $8.00</div>
+        <div class="menu-item">Caesar Salad - $12.00</div>
+      </div>
+    </section>
+
+    <aside class="order-summary">
+      <h2>Order Summary</h2>
+      <p>Fettuccine Bolognese - $20.00</p>
+      <p>Subtotal: $20.00</p>
+      <p>Tax: $1.50</p>
+      <p>Service Charge: $3.00</p>
+      <p>Discount: -$2.00</p>
+      <p><strong>Total: $22.50</strong></p>
+      <button>Checkout</button>
+    </aside>
+  </main>
+</body>
+</html>
