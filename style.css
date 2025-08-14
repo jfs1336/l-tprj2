@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  padding: 20px;
+}
+
+.categories {
+  width: 20%;
+  padding-right: 20px;
+}
+
+.categories ul {
+  list-style: none;
+  padding: 0;
+}
+
+.categories li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.categories .active {
+  font-weight: bold;
+  color: #d35400;
+}
+
+.menu {
+  width: 50%;
+}
+
+.search-sort {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.menu-items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.menu-item {
+  background-color: #fff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.order-summary {
+  width: 30%;
+  background-color: #fff;
+  padding: 20px;
+  border-left: 1px solid #ddd;
+}
+
+.order-summary p {
+  margin: 8px 0;
+}
+
+.order-summary button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
